@@ -1,0 +1,31 @@
+# --- Каталоги сборки Qt Creator / qmake ---
+build/
+build-*/
+/debug/
+/release/
+
+# --- Локальные настройки Qt Creator ---
+*.pro.user
+*.pro.user.*
+*.autosave
+.qtcreator/
+
+# --- Артефакты сборки ---
+/Makefile
+/Makefile.Debug
+/Makefile.Release
+ui_*.h
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+*.o
+*.obj
+*.exe
+.qmake.stash
+
+# --- Мусор ОС / редакторов ---
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
